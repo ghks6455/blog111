@@ -1,0 +1,30 @@
+.none {
+  height: 30px;
+  width: 80px;
+  background-color: blue;
+  color: white;
+}
+
+.active {
+  height: 30px;
+  width: 80px;
+  background-color: black;
+  color: white;
+}
+header {
+  width: 90%;
+  margin: 15px auto;
+}
+
+.btn {
+  display: flex;
+  margin-top: 50px;
+}
+img {
+  width: 200px;
+  height: 140px;
+}
+
+.small {
+  font-size: 0.2em;
+}
