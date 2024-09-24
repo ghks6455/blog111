@@ -1,0 +1,55 @@
+.cardForm {
+  width: 320px;
+  height: 378px;
+  background-color: white;
+}
+.mainImg {
+  width: 320px;
+  height: 170px;
+}
+.mainImg img {
+  width: 100%;
+  height: 100%;
+}
+.cardContent {
+  padding: 16px;
+}
+.content {
+  margin-bottom: 24px;
+}
+.content p {
+  height: 3.9375rem;
+  font-size: 0.875rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+  border-top: 1px solid #f1f3f5;
+}
+.foot div {
+  width: 150px;
+}
+.foot .like {
+  width: 60px;
+}
+.foot p {
+  font-size: 0.8em;
+  margin: 0 5px;
+}
+.name {
+  display: inline-flex;
+}
+
+.userImg {
+  width: 24px;
+  height: 24px;
+}
+.under {
+  font-size: 0.9em;
+}

@@ -1,0 +1,73 @@
+.wrapper {
+  min-height: 0px;
+  padding-bottom: 4rem;
+  flex: 1 1 0%;
+  display: flex;
+  flex-direction: column;
+}
+.titleForm {
+  max-height: 481px;
+  opacity: 1;
+}
+.innerWrapper {
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.titleText {
+  height: 66px;
+  background: transparent;
+  display: block;
+  padding: 0px;
+  font-size: 2.75rem;
+  width: 100%;
+  resize: none;
+  line-height: 1.5;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  color: var(--text1);
+}
+.decoration {
+  background: rgb(73, 80, 87);
+  height: 6px;
+  width: 4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 1px;
+}
+.tag {
+  color: var(--text1);
+  font-size: 1.125rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tagInput {
+  background: transparent;
+  display: inline-flex;
+  outline: none;
+  cursor: text;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  margin-bottom: 0.75rem;
+  min-width: 8rem;
+  border: none;
+  color: var(--text1);
+}
+
+.contentText {
+  margin-top: 30px;
+  height: 300px;
+
+  display: block;
+  padding: 0px;
+
+  width: 100%;
+  resize: none;
+  line-height: 1.5;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  color: var(--text1);
+}
