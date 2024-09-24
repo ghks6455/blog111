@@ -24,3 +24,9 @@ dialog {
   margin: 0 auto;
   top: 35%;
 }
+.ee {
+  display: flex;
+}
+.ee div {
+  width: 100px;
+}
